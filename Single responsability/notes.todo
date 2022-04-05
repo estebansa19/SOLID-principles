@@ -1,0 +1,9 @@
+Qué implica?:
+
+  - Cada componente de software tiene que tener una y sólo una responsabilidad, esto nos va a
+    permitir tener código más mantenible y que va a ser más reusable también. Un componente de
+    software puede ser tanto una clase, como una función o un método, etc.
+
+    e.g: una navaja suiza es una clara violación de este principio porque tiene demasiadas
+    responsabilidades, lo correcto en este caso sería, tener un cuchillo que solamente tiene una
+    responsabilidad y esta es cortar.
