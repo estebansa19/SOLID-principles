@@ -7,3 +7,23 @@ Qué implica?:
     e.g: una navaja suiza es una clara violación de este principio porque tiene demasiadas
     responsabilidades, lo correcto en este caso sería, tener un cuchillo que solamente tiene una
     responsabilidad y esta es cortar.
+
+Cohesión:
+
+  - Es el grado en el cual varios componentes de software están relacionados entre sí.
+
+    e.g: en un contendor de basura podemos tener muchos tipos de residuos de diferentes tipos
+    categorías, lo que vendría a ser una baja cohesión. En cambio, si tenemos los residuos separados
+    en contenedores por su tipo, vamos a tener una alta cohesión porque los residuos están
+    relacionados entre sí, en los plásticos habrán botellas y desechables, etc.
+
+    Si tenemos un componente en el que sus métodos tienen una alta cohesión, podemos asignarle una
+    single responsability a este componente.
+
+Coupling/acoplamiento:
+
+  - Es el nivel de inter-dependencia entre varios componentes de software.
+
+    e.g: un tren está altamente acoplado al tipo de vía por el que va a viajar, esto puede
+    determinar la anchura del tren, su tamaño, etc. Un tren a puede medir 2 mts de ancho debido a
+    la vía por la que se va a moviliar, como otro tren puede medir 1.5 mts debido a su vía.
