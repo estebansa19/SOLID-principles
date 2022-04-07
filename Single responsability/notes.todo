@@ -27,3 +27,14 @@ Coupling/acoplamiento:
     e.g: un tren está altamente acoplado al tipo de vía por el que va a viajar, esto puede
     determinar la anchura del tren, su tamaño, etc. Un tren a puede medir 2 mts de ancho debido a
     la vía por la que se va a moviliar, como otro tren puede medir 1.5 mts debido a su vía.
+
+Changes in software components:
+
+  - Un componente de software solamente debería ser modificado por sólo una razón o un par de
+    razones que tengan que ver mucho entre sí y que puedan ser sintetizadas en una sola.
+
+    Por qué? Un componente de software que tenga muchas razones por las cuales cambiar, va a
+    cambiar con mucha mayor frecuencia que uno que no, esto puede afectar de manera negativa a
+    nuestro sistema con bugs o más desarrollo del que tendríamos si esto no fuese así.
+
+    Es otra manera de ver este principio de una sola responsabilidad.
