@@ -1,0 +1,12 @@
+Qué implica?:
+
+  - Cada componente de software debería estar cerrado para modificaciones pero abierto para
+    extensiones.
+
+    Esto significa que nuevos features añadidos al componente no deberían modificar el código
+    existente pero que el componente puede ser extendido para añadir un nuevo feature o un nuevo
+    comportamiento.
+
+    Este mismo comportamiento lo tiene la Wii, porque la consola puede extender su funcionalidad
+    mediante otros elementos de hardware, como la cabrilla u otros. Pero no modificamos la consola
+    directamente.
