@@ -10,3 +10,12 @@ Qué implica?:
     Este mismo comportamiento lo tiene la Wii, porque la consola puede extender su funcionalidad
     mediante otros elementos de hardware, como la cabrilla u otros. Pero no modificamos la consola
     directamente.
+
+Ventajas:
+
+  - Es mucho más fácil implementar un nuevo feature.
+
+  - Minimizar el costo del desarrollo y del testeo del software.
+
+  - Suele resultar en un decoplamiento de los componentes de software, lo que nos hace cumplir el
+    primer principio.
