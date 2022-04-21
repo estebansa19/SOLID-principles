@@ -1,0 +1,35 @@
+Qué implica?:
+
+  - Los objetos deben ser reemplazables son sus subtipos sin afectar el correcto funcionamiento del
+    programa.
+
+    "Si se mueve como un pato, graznea como un pato pero necesita baterias, probablemente tenemos
+    la abstracción incorrecta".
+
+    e.g:
+
+      Tenemos una clase abstracta `Bird` y esta implementa un método `fly`.
+
+      class Bird
+        def fly
+        end
+      end
+
+      Si creamos otra clase que sea 'Ostrich', tendremos que sobreescribir este método fly porque
+      los avestruces no vuelan.
+
+      class Ostrich
+        def fly
+          raise 'Ostrichs cannot fly'
+        end
+      end
+
+      Aquí estaríamos rompiendo este principio porque la clase `Ostrich` no puede reemplazar la
+      clase `Bird`, ya que hay pájaros que sí pueden volar.
+
+Cómo podemos solucionarlo?:
+
+  1. Romper la jerarquia si el test de substitution falla y replantearla. En este caso,
+    normalmente, podremos crear una abstracción de más alto nivel que nos va a ayudar a cumplir con
+    este principio.
+
