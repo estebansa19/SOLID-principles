@@ -1,0 +1,15 @@
+Qué implica?:
+
+  - Ningún cliente debería ser forzado a depender en métodos que no usa.
+
+  e.g: tenemos un aparato en nuestra oficina que nos permite imprimir, escanear y enviar fax, si
+    quisiéramos representar las funcionalidades de este aparato como un objeto, podríamos
+    implementar una interfaz que contenga todo este comportamiento. Posteriormente, vemos que en
+    nuestra oficina hay otro aparato que permite imprimir y escanear, así que creamos la clase de
+    este aparato haciendo que implemente la interfaz pero dejamos el comportamiento de los fax en
+    blanco, sin implementar. Posteriormente vemos otro aparato más, este solamente permite realizar
+    impresiones, por lo que, por ende, va a tener que dejar el comportamiento de escaner y de los
+    fax en blanco, sin implementar.
+
+    Tener comportamiento en blanco en nuestros objetos parece algo inofensivo pero puede volverse
+    bastante tricky y confuso a la hora de trabajar en nuestro entorno.
