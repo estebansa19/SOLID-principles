@@ -33,3 +33,7 @@ Cómo podemos solucionarlo?:
     normalmente, podremos crear una abstracción de más alto nivel que nos va a ayudar a cumplir con
     este principio.
 
+  2. "Tell, don't ask", nuestro código no debería preguntar si un objeto es de un subtipo en
+    específico para hacer x cosa, este debería funcionar como un objeto de su clase padre sin
+    problema.
+
