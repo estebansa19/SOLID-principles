@@ -13,3 +13,8 @@ Qué implica?:
 
     Tener comportamiento en blanco en nuestros objetos parece algo inofensivo pero puede volverse
     bastante tricky y confuso a la hora de trabajar en nuestro entorno.
+
+Cómo solucionarlo?:
+
+  - Podemos segregar las interfaces y que los objetos implementen solamente las interfaces que de
+    verdad tengan que implementar y no tener métodos que no les correspondan.
