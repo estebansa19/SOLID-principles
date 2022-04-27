@@ -18,3 +18,16 @@ Cómo solucionarlo?:
 
   - Podemos segregar las interfaces y que los objetos implementen solamente las interfaces que de
     verdad tengan que implementar y no tener métodos que no les correspondan.
+
+Cómo identificar que estamos rompiendo este principio?:
+
+  1. Interfaces demasiado grandes o con muchos métodos.
+  2. Interfaces con baja cohesión.
+  3. Implementaciones vacías de métodos.
+
+
+Este principio se complementa con otros principios de SOLID. Por ejemplo, cuando segregamos las
+responsabilidades de las interfaces estamos cumpliendo con el principio de Single Responsability ya
+que nuestra interfaz solamente tiene una funcionalidad. Asímismo vamos a estar cumpliendo con el
+principio de Liskov Substitution, ya que podremos sustituir la interfaz con clases que hagan
+implementación de la misma.
