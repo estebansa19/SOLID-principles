@@ -1,0 +1,10 @@
+Qué implica?:
+
+  - "Los modulos de alto nivel no deberían depender de modulos de bajo nivel, ambos deberían
+    depender de abstracciones".
+
+    "Las abstracciones no deberían depender de los detalles, los detalles deberían depender de las
+    abstracciones".
+
+    La idea de este principio es cambiar la cardinalidad entre la dependencias de
+    nuestros componentes, tal cual como lo dice su nombre.
