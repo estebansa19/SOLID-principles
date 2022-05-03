@@ -14,3 +14,9 @@ Dependency Injection:
   - Es el concepto de remover la responsabilidad de crear una instancia que apunte a la abstracción
     y que en lugar de esto nuestra clase reciba esta clase desde sus atributos, de esta manera
     evitamos aún más el alto acoplamiento de nuestra clase con las otras clases.
+
+Inversion of Control:
+
+  - Es el concepto de que se maneje la Dependency Injection en un hilo de ejecución o un contexto
+    diferente, así que el flujo principal va a estar aislado de esto. En el ecosistema de Java,
+    frameworks como Spring realizan esto.
