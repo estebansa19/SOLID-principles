@@ -8,3 +8,9 @@ Qué implica?:
 
     La idea de este principio es cambiar la cardinalidad entre la dependencias de
     nuestros componentes, tal cual como lo dice su nombre.
+
+Dependency Injection:
+
+  - Es el concepto de remover la responsabilidad de crear una instancia que apunte a la abstracción
+    y que en lugar de esto nuestra clase reciba esta clase desde sus atributos, de esta manera
+    evitamos aún más el alto acoplamiento de nuestra clase con las otras clases.
